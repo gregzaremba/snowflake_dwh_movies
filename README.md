@@ -51,7 +51,7 @@ Run the SQL scripts in the following order:
 7. sql/2.0.Silver_procedures.sql
 8. sql/3.0.Gold_procedures.sql
 
-9. sql/orchestration/4.0.Orchestration_tasks.sql
+9. sql/4.0.Orchestration_tasks.sql
 
 ## To run end to end pipline please run:
 EXECUTE TASK MOVIES_DB.ORCHESTRATION.TASK_LOAD_REVENUE;
